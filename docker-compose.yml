@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  wheel:
+    image: dockerproductionaws/wheel
+    volumes:
+      - ./packages:/packages
